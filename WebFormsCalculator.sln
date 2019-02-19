@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormsCalculator", "WebFormsCalculator\WebFormsCalculator.csproj", "{4442351C-FE74-44E1-A57D-ABEEDC73221A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathExpressionCompiler", "MathExpressionCompiler\MathExpressionCompiler.csproj", "{A191EFD5-A92C-4BB1-AEBD-D4E165DF0402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathExpressionCompilerTests", "MathExpressionCompilerTests\MathExpressionCompilerTests.csproj", "{682F3AD8-1E18-42B9-9C66-DB73E0AE38EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4442351C-FE74-44E1-A57D-ABEEDC73221A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4442351C-FE74-44E1-A57D-ABEEDC73221A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4442351C-FE74-44E1-A57D-ABEEDC73221A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4442351C-FE74-44E1-A57D-ABEEDC73221A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A191EFD5-A92C-4BB1-AEBD-D4E165DF0402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A191EFD5-A92C-4BB1-AEBD-D4E165DF0402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A191EFD5-A92C-4BB1-AEBD-D4E165DF0402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A191EFD5-A92C-4BB1-AEBD-D4E165DF0402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682F3AD8-1E18-42B9-9C66-DB73E0AE38EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682F3AD8-1E18-42B9-9C66-DB73E0AE38EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682F3AD8-1E18-42B9-9C66-DB73E0AE38EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682F3AD8-1E18-42B9-9C66-DB73E0AE38EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {766F5E6B-22AC-4536-B20A-FD9D533D1868}
+	EndGlobalSection
+EndGlobal
