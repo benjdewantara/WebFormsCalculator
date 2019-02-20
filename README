@@ -1,0 +1,16 @@
+* Make sure your Visual Studio have nuget.org as one of its package sources for a successful package restoration
+
+  Read https://stackoverflow.com/questions/50484647/visual-studio-2017-only-has-offline-nuget-packages-for-net-core-2-x-how-to-get
+
+
+
+
+
+
+* After a seemingly successful build later, and launching using IIS Express, some error involving not being able to find the path ....\bin\roslyn\csc.exe may arise
+
+  Read https://stackoverflow.com/questions/32780315/could-not-find-a-part-of-the-path-bin-roslyn-csc-exe
+  
+  TL;DR Open Tools > NuGet Package Manager > Package Manager Console. Copy, paste then execute this command
+
+  `Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r`
